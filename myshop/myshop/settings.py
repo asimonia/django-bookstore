@@ -112,3 +112,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 # Add key to store the cart in the user session
 CART_SESSION_ID = 'cart'
+
+# Send emails to the backend. Set up email later
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
