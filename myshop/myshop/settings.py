@@ -117,5 +117,5 @@ CART_SESSION_ID = 'cart'
 
 # Send emails to the backend. Set up email later
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-PAYPAL_RECEIVER_EMAIL = 'mypaypalemail@myshop.com'
+PAYPAL_RECEIVER_EMAIL = 'alex@myshop.com'
 PAYPAL_TEST = True
